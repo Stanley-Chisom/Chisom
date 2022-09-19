@@ -63,6 +63,8 @@ window.addEventListener("scroll", () => {
   header.classList.toggle("header-active", window.scrollY > 0);
 });
 
+
+
 let scrollTop = document.querySelector(".scroll-top");
 
 window.addEventListener("scroll", () => {
