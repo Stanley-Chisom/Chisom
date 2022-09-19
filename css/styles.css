@@ -186,7 +186,7 @@ header {
     align-items: center;
     column-gap: 0.5rem;
     font-size: 1.2rem;
-    color: var(--main-color);
+
 }
 
 .home-text h3::before {
@@ -682,7 +682,6 @@ header {
 @media (max-width:635px) {
     .about-content {
         grid-template-columns: 1fr;
-        padding: 4vw;
     }
 
     .about-data span {
@@ -714,7 +713,13 @@ header {
 }
 
 @media(max-width:450px) {
+
     .home {
+        min-height: 485px;
+        padding-top: 5rem;
+    }
+
+    .home-img {
         width: 140px;
         height: 140px;
     }
@@ -749,8 +754,8 @@ header {
     }
 }
 
-/* @media (max-width:325px) {
+@media (max-width:325px) {
     .navbar {
         width: 100%;
-    } */
+    }
 }
