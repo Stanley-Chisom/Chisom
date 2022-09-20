@@ -76,6 +76,7 @@ a {
 #user-name {
     font-size: 48px;
     line-height: 1em;
+    cursor: pointer;
 }
 
 #profile-pic {
