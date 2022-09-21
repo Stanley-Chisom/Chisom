@@ -337,7 +337,7 @@ header {
     font-size: 2rem;
     font-weight: 600;
     margin: 0.5rem 0;
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .services-box p {
