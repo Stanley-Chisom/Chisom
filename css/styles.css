@@ -10,8 +10,8 @@
 }
 
 :root {
-    --main-color: #647bff;
-    --body-color: #090a1a;
+    --main-color: #7ba2cf;
+    --body-color: #0D1117;
     --container-color: #171b3c;
     --headings-color: #222321;
     --box-color: #0d0f26;
@@ -260,7 +260,7 @@ header {
 }
 
 .about-color {
-    color: #647bff;
+    color: #6a8bb0;
 }
 
 .about-data span {
@@ -293,7 +293,7 @@ header {
 }
 
 .btn:hover {
-    background: #546eff;
+    background: #1a8cd8;
     transition: 0.5s all linear;
 }
 
@@ -315,7 +315,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 2.5rem;
-    background: var(--container-color);
+    background: #131b23;
     border-radius: 0.5rem;
     transition: 0.8s all cubic-bezier(0.75, 0.82, 0.165, 1);
 }
@@ -414,7 +414,7 @@ header {
 
 .project-box {
     padding: 3vw;
-    background: var(--box-color);
+    background: #131b23;
     border-radius: 0.4rem;
     text-align: center;
 }
@@ -521,22 +521,21 @@ header {
     font-size: 0.9rem;
     padding: 15px;
     color: var(--bg-color);
-    background: var(--box-color);
+    background: #131b23;
     border-radius: 0.4rem;
 }
 
 .contact-form .send-btn {
-    width: 120px;
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 500;
     padding: 12px;
-    background: var(--main-color);
+    background: #7ba2cf;
     cursor: pointer;
 }
 
 .contact-form .send-btn:hover {
-    background: #546eff;
+    background: #1a8cd8;
     transition: 0.3s all linear;
 }
 
