@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
-  font-family: "DM Sans", serif;
+  font-family: "Inter", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -295,9 +295,10 @@ header {
 }
 
 .about-text {
-  font-size: 0.938rem;
-  line-height: 1.8rem;
+  font-size: 0.98rem;
+  line-height: 2rem;
   text-align: justify;
+  letter-spacing: 1.1px;
 }
 
 .services-content {
